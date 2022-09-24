@@ -3,7 +3,7 @@ title: My Blog
 SEOTitle: 我的博客 | My Blog
 header-img: img/post-bg-desk.jpg
 email: 暂无
-description: "写一句你想写的话"
+description: "show me the code"
 keyword: "我的博客"
 url: "http://angulan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
