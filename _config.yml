@@ -28,6 +28,7 @@ github:
 date_format: "%B %-d, %Y"
 logo: "/images/logo.png"
 # Build settings
+markdown: GFM
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-seo-tag
