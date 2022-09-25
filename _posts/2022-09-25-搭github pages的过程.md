@@ -19,7 +19,7 @@ categories: pages
 如果是404就已经成功创建好了，如果是Site not found就检查一下账号名是不是对应上这个url
 
 <figure style="width: 300px" class="align-center">
-  <img src="{{ '/images/post_pictures/404SiteNotFound.png' | absolute_url }}" alt="">
+  <img src="/images/post_pictures/404SiteNotFound.png" alt="">
   <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
 </figure> 
 
