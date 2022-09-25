@@ -20,15 +20,19 @@
 
 title: Snapshot
 email: Sunstrider@outlook.com
-description: 老人梦见了狮子🦁 # this means to ignore newlines until "baseurl:"
+description: 老人梦见了狮子 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://angoulemi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Angoulemi
-
+date_format: "%B %-d, %Y"
+logo: "/images/logo.png"
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -49,3 +53,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+# Site Author
+author:
+  name: DeShan
+  picture: "/images/picture.png" 
+  email: Sunstrider@outlook.com
+  github: Angoulemi
+
