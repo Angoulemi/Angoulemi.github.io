@@ -6,6 +6,7 @@ image:
     path: /images/wallhaven-vqxgql.png
 categories: java
 ---
+{% include toc %}
 ArrayList是最常见的集合类，顾名思义，ArrayList就是一个以**数组**形式实现的集合。它拥有List集合的特点：
 
 -   存取有序
