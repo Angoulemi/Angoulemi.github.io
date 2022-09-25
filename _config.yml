@@ -29,8 +29,8 @@ date_format: "%B %-d, %Y"
 logo: "/images/logo.png"
 # Build settings
 markdown: GFM
-# remote_theme: "mmistakes/so-simple-theme@3.2.0"
-remote_theme: "remote_theme: daviddarnes/alembic@main"
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+# remote_theme: "remote_theme: daviddarnes/alembic@main"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
