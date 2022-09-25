@@ -6,7 +6,10 @@ categories: pages
 ---
 <hr />
   之前在开源中国注册写博客的时候它的页面还是很干净的， 最近广告越来越多而且那搜索做的真的就是一坨Shit
-![](/images/post_pictures/oschina上闪烁的代码托管.png "笑了, 一直在闪烁引起你注意"){: .align-center}
+<figure style="width: 300px" class="align-center">
+  <img src="{{ '/images/post_pictures/oschina上闪烁的代码托管.png' | absolute_url }}" alt="">
+  <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
+</figure> 
   
   试试搭个github pages, 跟着学一下下页面.
 
