@@ -6,7 +6,7 @@ categories: pages
 ---
 <hr />
   之前在开源中国注册写博客的时候它的页面还是很干净的， 最近广告越来越多而且那搜索做的真的就是一坨Shit
-<figure style="width: 300px" class="align-center">
+<figure style="width: 600px" class="align-center">
   <img src="{{ '/images/post_pictures/oschina上闪烁的代码托管.png' | absolute_url }}" alt="">
   <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
 </figure> 
@@ -14,13 +14,13 @@ categories: pages
   试试搭个github pages, 跟着学一下下页面.
 
 # 第一步. 跟着官网教程建仓库
-[github pages官网链接](https://pages.github.com/ "github pages官网链接")
+[github pages官网链接](https://pages.github.com/ "github pages官网链接")<br />
 需要个GitHub的账号, 在Github上建一个跟账号名一样的仓库, 格式是 username.github.io， 创建好了以后直接可以访问
 如果是404就已经成功创建好了，如果是Site not found就检查一下账号名是不是对应上这个url
 
-<figure style="width: 300px" class="align-center">
+<figure style="width: 600px" class="align-center">
   <img src="/images/post_pictures/404SiteNotFound.png" alt="">
-  <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
+  <figcaption>看看是site not found还是page not found.</figcaption>
 </figure> 
 
 还需要懂一点点git知识, 在本地用git把新建的仓库拉下来, 接着添加一下官方推荐的Jekyll作为静态站点生成器
