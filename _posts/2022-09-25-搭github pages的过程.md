@@ -18,7 +18,10 @@ categories: pages
 需要个GitHub的账号, 在Github上建一个跟账号名一样的仓库, 格式是 username.github.io， 创建好了以后直接可以访问
 如果是404就已经成功创建好了，如果是Site not found就检查一下账号名是不是对应上这个url
 
-![](/images/post_pictures/404SiteNotFound.png "显示一下标题"){: .align-center}
+<figure style="width: 300px" class="align-center">
+  <img src="{{ '/images/post_pictures/404SiteNotFound.png' | absolute_url }}" alt="">
+  <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
+</figure> 
 
 还需要懂一点点git知识, 在本地用git把新建的仓库拉下来, 接着添加一下官方推荐的Jekyll作为静态站点生成器
 
