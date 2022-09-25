@@ -2,6 +2,8 @@
 layout: post
 title:  "ArrayList源码理解"
 date:   2022-09-25 17:21:28 +0800
+image:
+    path: /images/wallhaven-vqxgql.png
 categories: java
 ---
 ArrayList是最常见的集合类，顾名思义，ArrayList就是一个以**数组**形式实现的集合。它拥有List集合的特点：
