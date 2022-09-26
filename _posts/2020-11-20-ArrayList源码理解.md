@@ -4,6 +4,7 @@ title:  "ArrayList源码理解"
 date:   2022-09-25 17:21:28 +0800
 image:
     path: /images/wallhaven-vqxgql.png
+    thumbnail: /images/wallhaven-vqxgql400.png
 categories: java
 ---
 {% include toc %}
