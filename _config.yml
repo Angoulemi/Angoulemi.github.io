@@ -37,6 +37,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate 
+  - jekyll-toc
+
+# 默认为所有文章启用 toc
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
