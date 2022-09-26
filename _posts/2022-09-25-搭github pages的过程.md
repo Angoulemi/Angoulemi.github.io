@@ -4,7 +4,8 @@ title:  "搭github pages & jekyll"
 date:   2022-09-25 16:05:28 +0800
 categories: pages
 ---
- 之前在开源中国注册写博客的时候它的页面还是很干净的， 最近广告越来越多而且那搜索做的真的就是一坨Shit
+{% include toc %}
+ 之前在开源中国注册写博客的时候它的页面还是很干净的， 最近广告越来越多而且那搜索做的真的一言难尽
 <figure style="width: 600px" class="align-center">
   <img src="{{ '/images/post_pictures/oschina上闪烁的代码托管.png' | absolute_url }}" alt="">
   <figcaption>笑了, 一直在闪烁引起你注意.</figcaption>
