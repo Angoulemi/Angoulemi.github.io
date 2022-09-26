@@ -4,7 +4,6 @@ title:  "搭github pages & jekyll"
 date:   2022-09-25 16:05:28 +0800
 categories: pages
 ---
-{% include toc %}
 <hr />
   之前在开源中国注册写博客的时候它的页面还是很干净的， 最近广告越来越多而且那搜索做的真的就是一坨Shit
 <figure style="width: 600px" class="align-center">
