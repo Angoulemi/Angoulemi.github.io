@@ -9,8 +9,10 @@ layout: default
         {% assign title = page.title | markdownify | strip_html %}
         {% if page.link %}
           <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+	  <hr />
         {% else %}
           <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+	  <hr />
         {% endif %}
       </header>
 
