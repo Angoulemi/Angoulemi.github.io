@@ -7,7 +7,7 @@ image:
     thumbnail: /images/wallhaven-vqxgql.png
 categories: java
 ---
-{% include toc %}
+
 ArrayList是最常见的集合类，顾名思义，ArrayList就是一个以**数组**形式实现的集合。它拥有List集合的特点：
 
 -   存取有序
@@ -19,7 +19,7 @@ ArrayList是最常见的集合类，顾名思义，ArrayList就是一个以**数
 -   查找元素快
 -   顺序插入快
 
-那ArrayList为什么会有这些特性的？其实从源码中我们就能够了解到它是如何实现的。
+那ArrayList为什么会有这些特性的？从源码中我们就能够了解到它是如何实现的。
 
 ---
 
@@ -97,14 +97,6 @@ public ArrayList(Collection<? extends E> c) {
         }
     }
 
-
-
-
-
-
-
-
-
 ```
 
 可以看到，如果传入了初始值initialCapacity，就会按照这个值来初始化数组的大小。如果传入0，则数组等于EMPTY\_ELEMENTDATA，如果用了空参构造，则数组等于DEFAULTCAPACITY\_EMPTY_ELEMENTDATA。
@@ -113,7 +105,7 @@ public ArrayList(Collection<? extends E> c) {
 
 **扩容机制：**
 
-我们知道，Java中数组一旦定义则长度是不允许改变的，那么ArrayList如何实现\_Resizable-array implementation（可调整大小的数组实现）？\_
+我们知道，Java中数组一旦定义则长度是不允许改变的，那么ArrayList如何实现Resizable-array implementation（可调整大小的数组实现）？
 
 答案就在扩容机制上：
 
